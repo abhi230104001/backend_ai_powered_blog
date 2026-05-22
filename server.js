@@ -14,7 +14,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://127.0.0.1:5173'], // Vite default port
+  origin: ['http://localhost:5173', 'http://127.0.0.1:5173', 'https://au-powered-blog-frontend.vercel.app'],
   credentials: true
 }));
 
